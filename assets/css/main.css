@@ -52,6 +52,11 @@
   --contrast-color: #ffffff;
 }
 
+body {
+  font-family: 'Anton', sans-serif;
+}
+
+
 /* Smooth scroll */
 :root {
   scroll-behavior: smooth;
@@ -1626,8 +1631,13 @@ section,
   }
 
   .section-title p {
-    font-size: 28px; /* opcional para que se vea mejor en mobile */
-  }
+
+  color: white;
+  font-weight: bold;
+  font-size: 36px;
+  text-align: center;
+  font-family: 'Anton', sans-serif;
+}
 
  .shadow-img {
     max-width: 80%;
